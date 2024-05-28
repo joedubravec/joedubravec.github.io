@@ -32,7 +32,7 @@ export default function Menu() {
             )}
           >
             {/* <LinkIcon className="w-6" /> */}
-            <p className="hidden md:block">{link.name}</p>
+            <p>{link.name}</p>
           </Link>
         );
       })}
