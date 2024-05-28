@@ -33,7 +33,7 @@ export default function Home() {
           </a>
           <a href="https://www.linkedin.com/in/josephdubravec/">
             <Image
-              src="/joedubravec-dot-com/LI-in-Bug.png"
+              src="/joedubravec-dot-com/LI-In-Bug.png"
               alt="Linkedin Logo"
               className="flex:1 p-2 width:auto height:auto"
               width={635 / 10}
