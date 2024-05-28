@@ -5,10 +5,10 @@ import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-  { name: 'bio', href: '/bio', icon: null },
-  { name: 'resume', href: '/resume', icon: null },
-  { name: 'music', href: '/music', icon: null, },
-  { name: 'poetry', href: '/poetry', icon: null },
+  { name: 'resume', href: '/resume', icon: null, disabled: false },
+  { name: 'bio (coming soon!)', href: '/bio', icon: null, disabled: true },
+  { name: 'music (coming soon!)', href: '/music', icon: null, disabled: true},
+  { name: 'poetry (coming soon!)', href: '/poetry', icon: null, disabled: true },
 ];
 
 
@@ -27,6 +27,7 @@ export default function Menu() {
               'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3',
               {
                 'bg-sky-100 text-blue-600': pathname === link.href,
+                'pointer-events-none': link.disabled,
               },
             )}
           >
