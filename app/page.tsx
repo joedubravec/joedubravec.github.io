@@ -24,7 +24,7 @@ export default function Home() {
       <div className="flex">
           <a href="https://github.com/joedubravec">
             <Image
-              src="/joedubravec-dot-com/github-mark.svg"
+              src="github-mark.svg"
               alt="Github Logo"
               className="flex:1 p-2 width:auto height:auto"
               width={98 * 0.6}
@@ -33,7 +33,7 @@ export default function Home() {
           </a>
           <a href="https://www.linkedin.com/in/josephdubravec/">
             <Image
-              src="/joedubravec-dot-com/LI-In-Bug.png"
+              src="/LI-In-Bug.png"
               alt="Linkedin Logo"
               className="flex:1 p-2 width:auto height:auto"
               width={635 / 10}
