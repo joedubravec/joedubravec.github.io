@@ -9,7 +9,7 @@ export default function Page() {
       </div>
       <div className="p-5">
         <p className="pb-10">
-          hi there! my name is joe. i'm a recent graduate from&nbsp;
+          hi there! my name is joe. i&apos;m a recent graduate from&nbsp;
           <a href="https://illinois.edu/" className="text-orange-500 hover:text-blue-300">
             the University of Illinois</a>&nbsp;with a degree in&nbsp;
           <a
@@ -19,13 +19,13 @@ export default function Page() {
         <p className="pb-10">as my degree title suggests, i love all things technology and music. aside from&nbsp;
           <a href="https://github.com/joedubravec/joedubravec.github.io"
              className="text-blue-500 hover:text-blue-300">building this website</a>,
-          i've had the opportunity to create and be a part of a lot of cool projects over the years,
+          i&apos;ve had the opportunity to create and be a part of a lot of cool projects over the years,
           both curricular and professional. for all the specific details on professional experience,
           take a look at my&nbsp;
           <a href="/resume" className="text-blue-500 hover:text-blue-300">resume</a> or my&nbsp;
           <a href="https://www.linkedin.com/in/josephdubravec/"
              className="text-blue-500 hover:text-blue-300">LinkedIn profile</a>.
-          there's also some fun stuff i've made on my&nbsp;
+          there&apos;s also some fun stuff i&apos;ve made on my&nbsp;
           <a href="https://github.com/joedubravec?tab=overview&from=2024-09-01&to=2024-09-19"
              className="text-blue-500 hover:text-blue-300">Github profile </a>
           aside from this website.
